@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BASIC CALCULATOR</h1>
+    <q>(Developed by Jerald Tonmoy Dias)</q>
+    <form action="" class="calDiv" name="calculator">
+        <input class="calDisplay" name="board"><br>
+        <input type="button" value="1" onclick="calculator.board.value+='1'">
+        <input type="button" value="2" onclick="calculator.board.value+='2'">
+        <input type="button" value="3" onclick="calculator.board.value+='3'">
+        <input type="button" value="4" onclick="calculator.board.value+='4'"><br>
+        <input type="button" value="5" onclick="calculator.board.value+='5'">
+        <input type="button" value="6" onclick="calculator.board.value+='6'">
+        <input type="button" value="7" onclick="calculator.board.value+='7'">
+        <input type="button" value="8" onclick="calculator.board.value+='8'"><br>
+        <input type="button" value="9" onclick="calculator.board.value+='9'">
+        <input type="button" value="0" onclick="calculator.board.value+='0'">
+        <input type="button" value="=" onclick="calculator.board.value=eval(calculator.board.value)">
+        <input type="button" value="-" onclick="calculator.board.value+='-'"><br>
+        <input type="button" value="+" onclick="calculator.board.value+='+'">
+        <input type="button" value="/" onclick="calculator.board.value+='/'">
+        <input type="button" value="C" onclick="calculator.board.value = ''">
+        <input type="button" value="*" onclick="calculator.board.value+='*'">
+    </form>
+</body>
+</html>
